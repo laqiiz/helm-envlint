@@ -14,8 +14,6 @@ import (
 	"strings"
 )
 
-// まずDiffを取る(json patch)
-// その後にJSON Pathでルールを指定≒Linterにする
 func main() {
 
 	prev, _ := filepath.Abs(".")
